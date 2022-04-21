@@ -9,7 +9,7 @@ public class TicTacToeHomeworkFour {
     public static final char DOT_EMPTY = '.'; //Символ поля.
     public static final char DOT_X = 'x'; //Символ поля.
     public static final char DOT_O = 'o'; //Символ поля.
-    public static Scanner sc = new Scanner(System.in);
+    public static Scanner sc = new Scanner(System.in); //Инициализация объекта типа сканер
     public static Random rand = new Random();
 
     public static void main (String[]args) {
