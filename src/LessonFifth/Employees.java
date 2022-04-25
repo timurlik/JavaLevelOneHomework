@@ -37,7 +37,7 @@ public class Employees {
     public void setAge (int age) {this.age = age;}
 
 public String toString() {
-        return "Full name: " + fullName + " position: " + position + " email: " + email + " Phone number: "
-                + phoneNumber + " salary: " + salary + " age: " + age;
+        return "Full name: " + fullName + " \nposition: " + position + " \nemail: " + email + " \nPhone number: "
+                + phoneNumber + " \nsalary: " + salary + " \nage: " + age + " \n";
     }
 }

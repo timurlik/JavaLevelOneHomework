@@ -14,7 +14,9 @@ public class Main {
         employeesArray[3] = new Employees("Магомедов Магомед Магомедович", "Инженер", "magomedov@mail.ru", "85555555", 45000, 32);
         employeesArray[4] = new Employees("Степанова Людмила Андреевна", "Кассир", "stepanova@mail.ru", "84444444", 48000, 52);
         for (int i = 0; i < employeesArray.length; i++) {
-            System.out.println(employeesArray[i]);
+            if (employeesArray[i].getAge() > 40) {
+                System.out.println(employeesArray[i]);
+            }
         }
     }
 }
